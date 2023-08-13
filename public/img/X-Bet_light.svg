@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1392.71 401.77">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #212121;
+      }
+
+      .cls-2 {
+        font-family: SuperBrigadeLaser, 'Super Brigade Laser';
+        font-size: 305.59px;
+      }
+    </style>
+  </defs>
+  <g id="Light">
+    <g>
+      <path id="path1009" class="cls-1" d="m1.04,0l165.74,221.6L0,401.77h37.54l146.02-157.75,117.97,157.75h127.74l-175.06-234.06L409.44,0h-37.54l-134.47,145.28L128.78,0H1.04Zm55.2,27.65h58.68l259.13,346.48h-58.68L56.25,27.65Z"/>
+      <text class="cls-2" transform="translate(423.7 310.74)"><tspan x="0" y="0">BET</tspan></text>
+    </g>
+  </g>
+</svg>
