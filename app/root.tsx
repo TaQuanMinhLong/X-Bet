@@ -26,9 +26,9 @@ export async function loader(args: LoaderArgs) {
     const cookie = parseCookie(request.headers.get("Cookie") || "");
     const theme = cookie.get("theme") as Theme;
     if (!isValidTheme(theme)) cookie.set("theme", DEFAULT_THEME);
-    const { BASE_URL, NODE_ENV } = process.env;
+    const { BASE_URL, NODE_ENV, WS_URL } = process.env;
     return json(
-      { theme, ENV: { BASE_URL, NODE_ENV } },
+      { theme, ENV: { BASE_URL, NODE_ENV, WS_URL } },
       { headers: { "Set-Cookie": `theme=${cookie.get("theme")}` } }
     );
   });
