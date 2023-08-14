@@ -10,9 +10,9 @@ export const loader: LoaderFunction = async (args) => {
 
   return {};
 };
-export default function _app() {
+export default function AppLayout() {
   return (
-    <MainLayout className="w-full shadow-md max-w-screen-xl bg-background min-h-screen">
+    <MainLayout className="w-full max-w-screen-xl min-h-screen shadow-md bg-background">
       <Outlet />
     </MainLayout>
   );
